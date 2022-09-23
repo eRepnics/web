@@ -887,3 +887,21 @@ section.portfolio-area .footer {
   bottom: 0;
   right: 0;
 }
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .center {
+    color: black;
+  }
+  body {
+    background-color: #000;
+  }
+}
