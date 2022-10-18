@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>ERepnics Pvt. Ltd.</title>
+	<link rel="icon" type="image/x-icon" href="images/beta.png">
+	<link rel="stylesheet" href="css/s.css" />
+	<link rel="stylesheet" href="css/timer.css" />
+	<link rel="stylesheet" href="css/schedule.css" />
+	<link rel="stylesheet" href="css/mobile.css" />
+	<link rel="stylesheet" href="css/sponsors.css" />
+	<link rel="stylesheet" href="css/particle.css" />
+	<link rel="stylesheet" href="css/faq.css">
+	<link rel="stylesheet" href="css/prizes.css">
+	<link rel="stylesheet" href="css/footer.css">
+	<link rel="stylesheet" href="css/beta.css">
+	<link rel="stylesheet" href="css/preloader.css">
+	<link rel="stylesheet" href="css/animation.css">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" /> -->
+	<link
+		href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Edu+VIC+WA+NT+Beginner&family=Indie+Flower&family=Montserrat:ital,wght@0,500;1,400&family=Patrick+Hand&family=Rubik+Burned&display=swap"
+		rel="stylesheet">
+
+	<!-- <link rel="stylesheet" href="css/gallery.css"> -->
+	<link rel="stylesheet" href="css/gallery2.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<!-- stats.js lib -->
+	<script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+
+	<!-- <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/103/three.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+
+<body onload="loadcomplete()" id="body--nav">
+	<div id="preloader">
+		<div class="box box-preloader">
+			<a class="logo"></a>
+			<div class="ring ring1">
+				<div class="particle"></div>
+			</div>
+			<div class="ring ring2">
+				<div class="particle"></div>
+			</div>
+			<div class="ring ring3">
+				<div class="particle"></div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="particles-js"></div> -->
+	<div id="particles-js">
+		<canvas id="3D-particle-effect-canvas"></canvas>
+	</div>
+	<nav id="__navbar__">
+		<div class="menu" id="navbar">
+			<p class="website_name"><a href="https://erepnics.tech/" target="_blank"><img src="images/logo.png"
+						alt="" /></a></p>
+			<div class="menu_links" id="nav-container">
+				<a href="index.html#home" class="link">Home</a>
+				<a href="index.html#about" class="link">ERepair</a>
+				<a href="index.html#prize" class="link">Products</a>
+				<a href="index.html#schedule" class="link">Career</a>
+			</div>
+			<div class="menu_icon">
+				<ion-icon name="menu-outline" id="open--nav--ham" class="icon--nav open--nav"></ion-icon>
+				<ion-icon name="close-outline" id="close--nav--ham" class="icon--nav  hidden--nav--bur close--nav">
+				</ion-icon>
+
+				<!-- <span class="icon"></span> -->
+			</div>
+		</div>
+
+	</nav>
+	
+
+	<section class="wrapper" id="home">
+		<div class="container">
+			<p class="p404" data-depth="0.10">
+				<img src="images/main.png" class="version-logo" alt="" />
+			</p>
+
+			<div class="text">
+				<article>
+					<p>ERepnics Pvt. Ltd.</p>
+					<!-- <p>ERepnics Pvt. Ltd.</p> -->
+					<!-- <div class="main-sponsor"> -->
+					<!-- <p>StartinUP</p> -->
+					
+					<!-- </div> -->
+					<!-- <p>A tech firm.</p> -->
+					<!-- <button class="dev-button"> <svg class="logo-D" xmlns="http://www.w3.org/2000/svg"
+							viewBox="0 0 115.46 123.46" fill="#2f4ae4">
+							<path d="M115.46 68a55.43 55.43 0 0 1-50.85 55.11S28.12 124 16 123a12.6 
+									12.6 0 0 1-10.09-7.5 15.85 15.85 0 0 0 5.36 1.5c4 .34 10.72.51 20.13.51 
+									13.82 0 28.84-.38 29-.38h.26a60.14 60.14 0 0 0 54.72-52.47c.05 1.05.08 
+									2.18.08 3.34z"></path>
+							<path d="M110.93 55.87A55.43 55.43 0 0 1 60.08 111s-36.48.92-48.58-.12C5 110.29.15 
+									104.22 0 97.52l.2-83.84C.38 7 5.26.94 11.76.41c12.11-1 48.59.12 48.59.12a55.41 
+									55.41 0 0 1 50.58 55.34z"></path>
+						</svg> Apply With Devfolio</button> -->
+					
+					<p style="margin-top: 1rem;">Building the SOCIETY<br>for Better FUTURE</p>
+					
+
+			</div>
+		</div>
+		<div class="hackimg">
+			<div class="box">
+				<a class="logo"></a>
+				<div class="ring ring1">
+					<div class="particle"></div>
+				</div>
+				<div class="ring ring2">
+					<div class="particle"></div>
+				</div>
+				<div class="ring ring3">
+					<div class="particle"></div>
+				</div>
+			</div>
+
+			<!-- <p class="timer__text">Version Beta 5.0 Coming soon ...</p> -->
+		</div>
+	</section>
+	<section class="about-container hidden" id="about">
+		<h1 class="about-heading hidden"><a href="./portal/index.html">E-Repair</a></h1>
+		<div class="about-content hidden">
+			<div class="about-left"></div>
+			<div class="about-right">
+				<p id="about__content--">
+					E-Repair app is designed with the sole purpose of maintenance and service for the electronic devices at the nearby electronic repair shops. the app gives us the facilities to look out for the authorised electronics shops nearby and is created with the vision of making it easy for the owners to look out for their devices and the important parts which are otherwise very difficult to find. The app provides with various flexibilities of choosing the shops and bookmarking the favourite locations. We can even choose to either call out the repair at our homes or be present there ourselves. Also, the missing parts can be home delivered easily. This apps makes it very handy for the unknown customers to maintain and repair their electronic systems at their personalised wishes.
+
+				</p>
+			</div>
+		</div>
+	</section>
+	
+	<section id="prize" class="hidden">
+		<div id="head">
+			<h1 id="head--prize">Products</h1>
+		</div>
+		<div class="prizes">
+			<div id="prize--1" class="prize">
+				<!-- <div id="overlay"></div> -->
+				<button class="btn" id="btn--1">₹25,000<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSdT_t_iojrtyeWwxediBi4EDUUkeZs8olbXUhcT69TlYCdijQ/viewform">Buy Now</a></button>
+
+			</div>
+			<div id="prize--2" class="prize">
+				<button class="btn" id="btn--2">₹35,000<br><a href="https://docs.google.com/forms/d/e/1FAIpQLSdT_t_iojrtyeWwxediBi4EDUUkeZs8olbXUhcT69TlYCdijQ/viewform">Buy Now</a></button>
+
+			</div>
+			
+		</div>
+	</section>
+
+	<section class="container-schedule hidden" id="schedule">
+		<h2 class="schedule-heading center">We are HIRING!</h2>
+
+		<div class="schedule-content-div">
+
+
+			<ul class="timeline-container">
+				<li>
+					<h3 href="#" class="time-link link-border">Apply</h3>
+				</li>
+				<li>
+					<h3 href="#" class="time-link">Interview</h3>
+				</li>
+				<li>
+					<h3 href="#" class="time-link">Start</h3>
+				</li>
+				<li>
+					<h3 href="#" class="time-link">Evaluation</h3>
+				</li>
+				<li>
+					<h3 href="#" class="time-link">Incentive</h3>
+				</li>
+			</ul>
+
+
+			<div class="content">
+				<div id="1" class="time-content appear-anim">
+					<!-- <h3>Apply</h3> -->
+					<h4 style="color:red"><a href="https://docs.google.com/forms/d/e/1FAIpQLSfbWHRn9TH1s38Ci93Ux3WrXiZI7EWuqZ1emOUiDg8tbnYj6g/viewform?usp=sf_link">Apply today</a></h4>
+					<p>
+						We are currently hiring for interships only.<br>
+						Either apply by button above or mail your resume at <a href="mailto:info@erepnics.tech">info@erepnics.tech</a>						
+					</p>
+				</div>
+				<div id="2" class="time-content appear-anim">
+					<!-- <h3>Interview</h3> -->
+					<h4></h4>
+					<p>
+						Interview will be telephonic.<br>
+						After applying you will receive a phone call.<br>
+						Be prepared for your interview.
+					</p>
+				</div>
+				<div id="3" class="time-content appear-anim">
+					<!-- <h3>Start</h3> -->
+					<h4></h4>
+					<p>
+						Start your internship on your pace.<br>
+						Sign your offer letter and submitted to your HR with a copy of your Aadhaar Card.
+					</p>
+				</div>
+				<div id="4" class="time-content appear-anim">
+					<!-- <h3>Evaluation</h3> -->
+					<h4></h4>
+					<p>
+						After compeletion of your internship your works and taks will be evaluated upon which your internship will be considered successfull.
+					</p>
+				</div>
+				<div id="5" class="time-content appear-anim">
+					<!-- <h3>Incentive</h3> -->
+					<h4></h4>
+					<p>
+						An Internship Certificate, LinkedIn Recomendation and a Letter of Recomendation will be provided to each intern after intenship completion.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="swiper">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide">
+					<h3 style="color: red;text-decoration: underline;">Apply</h3>
+					<div class="schedule__content__swiper">
+						<h4></h4>
+						<p>
+							We are currently hiring for interships only.<br>
+						Either apply by button above or mail your resume at <a href="mailto:info@erepnics.tech">info@erepnics.tech</a>
+						</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<h3>Interview</h3>
+					<div class="schedule__content__swiper">
+						<h4></h4>
+						<p>
+							Interview will be telephonic.<br>
+						After applying you will receive a phone call.<br>
+						Be prepared for your interview.
+						</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<h3>Start</h3>
+					<div class="schedule__content__swiper">
+						<h4></h4>
+						<p>
+							Start your internship on your pace.<br>
+						Sign your offer letter and submitted to your HR with a copy of your Aadhaar Card.
+						</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<h3>Evaluation</h3>
+					<div class="schedule__content__swiper">
+						<h4></h4>
+						<p>
+							After compeletion of your internship your works and taks will be evaluated upon which your internship will be considered successfull.
+						</p>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<h3>Incentive</h3>
+					<div class="schedule__content__swiper">
+						<h4></h4>
+						<p>
+							An Internship Certificate, LinkedIn Recomendation and a Letter of Recomendation will be provided to each intern after intenship completion.
+						</p>
+					</div>
+				</div>
+			</div>
+			<div class="swiper-pagination"></div>
+		</div>
+	</section>
+
+	
+
+
+	<section class="faq" id="faq">		
+
+		<footer class="footer-container-main hidden">
+			<div class="footer-container">
+				<div class="footer-left">
+					<!-- <a href="https://versionbeta.istemanit.in/doc/VB%20Brochure%202021.pdf"
+					class="center-text-button footer-button" target="_blank">Download Brochure</a>
+				<a href="https://versionbeta.istemanit.in/doc/VBrulebook-2021.pdf"
+					class="center-text-button footer-button" target="_blank">Rule Book</a>
+				<a href="https://devfolio.co/code-of-conduct" class="center-text-button footer-button"
+					target="_blank">Code
+					of Conduct Devfolio</a>
+				<a href="https://static.mlh.io/docs/mlh-code-of-conduct.pdf" class="center-text-button footer-button"
+					target="_blank">Code of Conduct MLH</a> -->
+					<div class="footer-block">
+						<h3 class="center-text">
+							<i class="fas fa-map-marker" aria-hidden="true"></i> Address
+						</h3>
+						<p class="center-text"><a href="https://goo.gl/maps/nTNnuX6w5YbGKTic7" target="_blank">Incubation & Startup Cell<br> Dr. Ambedkar Institute of Technology for Handicapped, Kanpur</a> </p>
+					</div>
+
+				</div>
+				<div class="footer-mid">
+					<div class="footer-block">
+						<h3 class="center-text">
+							<i class="fas fa-mobile" aria-hidden="true"></i> Contact
+						</h3>
+						<p><a href="tel://7054185705" target="_blank"><i class="fas fa-phone " aria-hidden="true"></i>
+								Aditya Singh <br> +91
+								70541 85705</a></p>
+						<!--<p><a href="tel://" target="_blank"><i class="fas fa-phone " aria-hidden="true"></i>
+								 <br> +91
+								</a></p>-->
+
+					</div>
+				</div>
+				<div class="footer-right">
+					<div class="footer-block">
+						<h3 class="center-text">
+							<i class="fas fa-envelope" aria-hidden="true"></i> Email Address
+						</h3>
+						<p class="center-text"><a href="mailto:info@erepnics.tech"
+								target="_blank">info@erepnics.tech</a></p>
+					</div>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="footer-block">
+				<h3 class="center-text">
+					<i class="fas fa-link" aria-hidden="true"></i>
+					Social Links
+				</h3>
+				<div class="social-icon">
+					<div class="icon">
+						<a href="https://www.instagram.com/erepnics/" target="_blank">
+							<i class="fab fa-instagram fa-2x"></i>
+						</a>
+					</div>
+					<!--<div class="icon">
+						<a href="" target="_blank">
+							<i class="fab fa-facebook fa-2x"></i>
+						</a>
+					</div>-->
+					<div class="icon">
+						<a href="https://www.linkedin.com/company/erepnics/" target="_blank">
+							<i class="fab fa-linkedin fa-2x"></i>
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="line"></div>
+			<div class="conduct-block">
+				<!-- <a href="https://versionbeta.istemanit.in/doc/VB%20Brochure%202021.pdf" class="center-text"
+					target="_blank">Download Brochure</a> -->
+				<!-- <a href="https://versionbeta.istemanit.in/doc/VBrulebook-2021.pdf" class="center-text"
+					target="_blank">Rule
+					Book</a> -->
+				<a href="https://www.startupindia.gov.in/" class="center-text" target="_blank"><img src="images/india.png" height="50px"></a>
+				<a href="https://startinup.up.gov.in/" class="center-text" target="_blank"><img src="images/up.png" height="50px"></a>
+			</div>
+			<div class="line"></div>
+			<p class="copyright">Copyright © 2022 by <span><a href="https://istemanit.in/" target="_blank">ERepnics Pvt. Ltd.</a></span>. <span class="all">All
+					rights reserved.</span>
+			</p>
+
+			<!-- <div class="tandc">
+				<a href="https://versionbeta.istemanit.in/doc/VB%20WEBSITE%20PRIVACY%20POLICY.pdf" class="center-text" target="_blank"><i>Privacy Policy</i></a>
+				<a href="https://versionbeta.istemanit.in/doc/Terms%20and%20Conditions.pdf" class="center-text" target="_blank"><i>Terms and Conditions</i></a>
+			</div> -->
+
+		</footer>
+
+		<button class="go-to-top__button">
+			<ion-icon id="rocket__button" name="rocket-outline"></ion-icon>
+		</button>
+
+
+		<script src="js/schedule.js"></script>
+		<script src="js/prizes.js"></script>
+		<script src="js/script.js"></script>
+		<script src="js/faq.js"></script>
+		<!--<script src="js/particle.js"></script>-->
+		<script src="js/swiper.js"></script>
+		<script src="js/sponsors.js"></script>
+		<script src="js/timer.js"></script>
+		<script src="js/nav.js"></script>
+		<script src="https://kit.fontawesome.com/3a4f34ed87.js" crossorigin="anonymous"></script>
+		<script src="js/animations.js"></script>
+		<script defer async src="https://apply.devfolio.co/v2/sdk.js"></script>
+</body>
+
+</html>
