@@ -115,7 +115,7 @@
 	position: absolute;
 	bottom: 0px;
 	/* left: 1rem; */
-	width: 70%;
+	width: 40%;
 	border-radius: 10px;
 	box-shadow: rgb(255 196 24) 1px 19px 38px, rgb(255 177 25) 0px 15px 12px;
 }
@@ -190,7 +190,7 @@
 		width: 88%;
 	}
 	#btn--2 {
-		width: 76%;
+		width: 40%;
 	}
 	#btn--3 {
 		width: 96%;
@@ -219,7 +219,7 @@
 		padding: 10px;
 	}
 	#btn--2 {
-		width: 76%;
+		width: 40%;
 		padding: 10px;
 	}
 	#btn--3 {
@@ -250,7 +250,7 @@
 		padding: 10px;
 	}
 	#btn--2 {
-		width: 76%;
+		width: 40%;
 		padding: 10px;
 	}
 	#btn--3 {
@@ -280,7 +280,7 @@
 		padding: 4px;
 	}
 	#btn--2 {
-		width: 76%;
+		width: 40%;
 		padding: 4px;
 	}
 	#btn--3 {
@@ -307,7 +307,7 @@
 		padding: 4px;
 	}
 	#btn--2 {
-		width: 76%;
+		width: 40%;
 		padding: 4px;
 	}
 	#btn--3 {
@@ -337,7 +337,7 @@
 		padding: 4px;
 	}
 	#btn--2 {
-		width: 76%;
+		width: 40%;
 		padding: 4px;
 	}
 	#btn--3 {
@@ -370,7 +370,7 @@
 		padding: 4px;
 	}
 	#btn--2 {
-		width: 76%;
+		width: 40%;
 		padding: 4px;
 	}
 	#btn--3 {
